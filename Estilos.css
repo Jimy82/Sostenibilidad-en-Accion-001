@@ -1,0 +1,77 @@
+    body {
+        font-family: monospace;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: bisque;
+      }
+      h1 {
+        color: rgb(18, 191, 18);
+        text-align: center;
+        font-family: Impact;
+      }
+      h2 {
+        text-align: center;
+        align-items: center;
+        color:#069
+
+      }
+      p {
+        font-size: 16px;
+        text-align: justify;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        color: black;
+        text-decoration: none;
+        text-align: center;
+      }
+      nav a:hover {
+        color: green;
+      }
+      nav img {
+        height: 40px;
+        text-align: center;
+      }
+      .enlace-externo {
+        background-color: lightgreen;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: darkblue;
+        display: inline-block;
+        font-size: 16px;
+      }
+      .enlace-externo:hover {
+        background-color: green;
+      }
+      img {
+        width: auto;
+        height: 200px;
+        border: 1px solid #CCC;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+        border-radius: 5px;
+        align-items: center;
+        image-orientation: flip;
+      
+      }
+      footer {
+        background-color: #333;
+        color: #FFF;
+        padding: 20px;
+        align-items: center;
+      }
+      footer p {
+        margin: 0;
+        font-size: 14px;
+        text-align: center;
+      }
+      footer a {
+        color: #069;
+      }
+    
